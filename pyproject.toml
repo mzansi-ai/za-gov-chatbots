@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "elasticmeetupnov24"
+version = "0.1.0"
+description = ""
+authors = ["Christo Goosen <christogoosen@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+llama-index = "^0.11.21"
+jupyterlab = "^4.3.0"
+llama-index-readers-web = "^0.2.4"
+llama-index-embeddings-ollama = "^0.3.1"
+streamlit = "^1.39.0"
+llama-index-agent-openai = "^0.3.4"
+chromedriver-autoinstaller = "^0.6.4"
+maincontentextractor = "^0.0.4"
+notebook = "^7.2.2"
+transformers = "^4.46.1"
+llama-index-vector-stores-elasticsearch = "^0.3.3"
+crawl4ai = "^0.3.72"
+torch = "^2.5.1"
+llama-index-llms-ollama = "^0.3.4"
+sentence-transformers = "^3.2.1"
+python-dotenv = "^1.0.1"
+tqdm = "^4.67.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
